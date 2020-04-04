@@ -90,7 +90,7 @@
             "Key": "3bf56885-2691-461b-a41d-d4d239787cc0",
             "Value": {
                 "id": "92ee0d88-fc10-42ac-bf7f-df304cb64394",
-                "resourcePath": "fonts\/Courier\/Courier.yy",
+                "resourcePath": "fonts\/Minecraft\/Minecraft.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -148,6 +148,14 @@
                 "id": "ff5aed32-4075-40ba-98a4-3ff9a2c2a829",
                 "resourcePath": "views\/96978f04-e2ad-4320-84e4-dc6cc5f743b0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "96ef9c6a-f898-45c8-a22e-156b0aff8f57",
+            "Value": {
+                "id": "369506cf-09db-4b3d-8f39-278bef78a776",
+                "resourcePath": "objects\/CameraObject\/CameraObject.yy",
+                "resourceType": "GMObject"
             }
         },
         {
