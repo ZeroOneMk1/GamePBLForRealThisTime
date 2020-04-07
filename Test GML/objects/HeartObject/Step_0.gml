@@ -44,6 +44,8 @@ if(cntspce){
 
 vmov = vmov + grv;
 
+
+	
 //SUPER JUMP FOR BUGTESTING AND DEVCHEATS;
 
 if(keyboard_check_pressed(ord("J"))){
@@ -88,21 +90,21 @@ if(place_meeting(x,y+vmov,WallObject)){
 
 //DASH;
 
-/*if(keyboard_check_pressed(ord("E"))){
-	
-	if(d-a != 0){
-		
-		hmov = dashdis * sign(d-a);
-	}
-	
-	if(s-w != 0){
-		
-		vmov = dashdis * sign(s-w) / 10;
-	}
-}
-*/
-
 if(keyboard_check_pressed(ord("E"))){
+	
+	hDest = (d-a) * dashdis + x;
+
+	vDest = (s-w) * dashdis + y;
+	
+	while (round(hDest) != round(x)) or (round(vDest) != round(y)){
+		x += (hDest - x) / smoothness;
+		y += (vDest - y) / smoothness;
+	}	
+}
+
+//RESPAWN
+
+if(keyboard_check_pressed(ord("R"))){
 	x = 100
 	y = 100
 }

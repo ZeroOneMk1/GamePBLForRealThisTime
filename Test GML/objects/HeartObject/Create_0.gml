@@ -11,3 +11,10 @@ aval = 0;
 dval = 0;
 
 dashdis = 100;
+<<<<<<< Updated upstream
+=======
+
+camera = CameraObject;
+
+smoothness = 10;
+>>>>>>> Stashed changes
