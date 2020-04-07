@@ -11,3 +11,5 @@ aval = 0;
 dval = 0;
 
 dashdis = 100;
+
+camera = CameraObject;
