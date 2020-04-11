@@ -90,7 +90,7 @@
             "Key": "3bf56885-2691-461b-a41d-d4d239787cc0",
             "Value": {
                 "id": "92ee0d88-fc10-42ac-bf7f-df304cb64394",
-                "resourcePath": "fonts\/Courier\/Courier.yy",
+                "resourcePath": "fonts\/Minecraft\/Minecraft.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "96ef9c6a-f898-45c8-a22e-156b0aff8f57",
+            "Value": {
+                "id": "369506cf-09db-4b3d-8f39-278bef78a776",
+                "resourcePath": "objects\/CameraObject\/CameraObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9b42df07-332d-470e-98ec-71fd02ac654e",
             "Value": {
                 "id": "e31687da-7fb0-4be1-a135-23cdf4e780e6",
@@ -199,11 +207,11 @@
             }
         },
         {
-            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
+            "Key": "cc3ade72-aedb-42bd-aeba-296e7bf32f84",
             "Value": {
-                "id": "783f168c-06bd-49a9-879c-24228442350f",
-                "resourcePath": "options\\windows\\options_windows.yy",
-                "resourceType": "GMWindowsOptions"
+                "id": "b9fd7ed2-6b17-4802-8123-bfa4d9414d81",
+                "resourcePath": "rooms\/room1\/room1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
