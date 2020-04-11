@@ -13,3 +13,5 @@ dval = 0;
 dashdis = 100;
 
 camera = CameraObject;
+
+smoothness = 10;
