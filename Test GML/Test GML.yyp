@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "e9a53ea6-39af-495d-9e77-a266f2d9879f",
+            "Value": {
+                "id": "0768c10b-dbe5-4ae9-a7b7-5d9c663257c6",
+                "resourcePath": "sprites\\ROCK\\ROCK.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "eaf2eb7e-946d-46b0-9068-e199a9f9f289",
             "Value": {
                 "id": "9be832e4-7fe0-43ff-a609-a4e668bed649",
