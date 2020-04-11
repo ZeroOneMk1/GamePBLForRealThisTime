@@ -1,4 +1,4 @@
-/// @description Initializing Camera
+///@description Initializing Camera
 
 cam = view_camera[0];
 
