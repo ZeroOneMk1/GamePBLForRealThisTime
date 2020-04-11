@@ -1,5 +1,4 @@
-
-/// @description Skrrra
+///@description cameraman take me by the hand lead me to the land that you understand
 
 draw_set_font(Courier);
 

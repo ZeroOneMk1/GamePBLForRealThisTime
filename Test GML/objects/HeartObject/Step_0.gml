@@ -30,19 +30,19 @@ if(dval > 1){
 
 //CALCULATING DIRECTION AND SPEED OF MOVEMENTS;
 
-hdir = dval - aval;
-
-vdir = s - w;
-
-hmov = hdir * hsp;
-
 if(cntspce){
 	grv = 0.15;
 }else{
 	grv = 0.4;
 }
 
-vmov = vmov + grv;
+hdir = dval - aval;
+
+vdir = s - w;
+
+hmov = hdir * hsp;
+
+vmov += grv;
 
 
 	
@@ -54,6 +54,14 @@ if(keyboard_check_pressed(ord("J"))){
 	}else if(vsp == -14){
 		vsp = -10;
 	}
+}
+
+//WALL GRAB;
+
+if(place_meeting(x+1,y,WallObject)) and (d-a == 1){
+	vmov = vmov / 1.5;
+}else if(place_meeting(x-1,y,WallObject)) and (d-a == -1){
+	vmov = vmov / 1.5;
 }
 
 //JUMP AND WALLJUMP;
