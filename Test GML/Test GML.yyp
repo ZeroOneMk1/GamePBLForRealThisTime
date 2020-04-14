@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2ec80da7-685e-4a0e-96a0-5cd2af11e869",
+            "Value": {
+                "id": "5cdbb3d7-f5fc-4b6a-aa34-b57bf0a132a5",
+                "resourcePath": "objects\/CameraObject\/CameraObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3bf56885-2691-461b-a41d-d4d239787cc0",
             "Value": {
                 "id": "92ee0d88-fc10-42ac-bf7f-df304cb64394",
@@ -234,7 +242,7 @@
             "Key": "e9a53ea6-39af-495d-9e77-a266f2d9879f",
             "Value": {
                 "id": "0768c10b-dbe5-4ae9-a7b7-5d9c663257c6",
-                "resourcePath": "sprites\\ROCK\\ROCK.yy",
+                "resourcePath": "sprites\/ROCK\/ROCK.yy",
                 "resourceType": "GMSprite"
             }
         },
