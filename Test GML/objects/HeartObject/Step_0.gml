@@ -40,7 +40,19 @@ hdir = dval - aval;
 
 vdir = s - w;
 
-hmov = hdir * hsp;
+hacc = hsp * hdir;
+
+hmov += hacc;
+
+if(hmov > 4){
+	hmov = 4
+}else if (hmov < -4){
+	hmov = -4
+}
+
+if(hacc  = 0){
+hmov = hmov*0.9;
+}
 
 vmov += grv;
 
@@ -64,6 +76,22 @@ if(place_meeting(x+1,y,WallObject)) and (d-a == 1){
 	vmov = vmov / 1.5;
 }
 
+//WALL GRAB movingwall1;
+
+if(place_meeting(x+1,y,movingwall1)) and (d-a == 1){
+	vmov = vmov / 1.5;
+}else if(place_meeting(x-1,y,movingwall1)) and (d-a == -1){
+	vmov = vmov / 1.5;
+}
+
+//WALL GRAB movingwall2;
+
+if(place_meeting(x+1,y,movingwall2)) and (d-a == 1){
+	vmov = vmov / 1.5;
+}else if(place_meeting(x-1,y,movingwall2)) and (d-a == -1){
+	vmov = vmov / 1.5;
+}
+
 //JUMP AND WALLJUMP;
 
 if(spce) && ((place_meeting(x,y+1,WallObject))or(place_meeting(x+1,y,WallObject))or(place_meeting(x-1,y,WallObject))){
@@ -71,6 +99,27 @@ if(spce) && ((place_meeting(x,y+1,WallObject))or(place_meeting(x+1,y,WallObject)
 		vmov = vsp;
 }
 
+//JUMP AND WALLJUMP airvent;
+
+if(spce) && ((place_meeting(x,y+1,airvent))or(place_meeting(x+1,y,airvent))or(place_meeting(x-1,y,airvent))){
+	
+		vmov = vsp;
+}
+
+
+//JUMP AND WALLJUMP movingwall1;
+
+if(spce) && ((place_meeting(x,y+1,movingwall1))or(place_meeting(x+1,y,movingwall1))or(place_meeting(x-1,y,movingwall1))){
+	
+		vmov = vsp;
+}
+
+//JUMP AND WALLJUMP movingwall2;
+
+if(spce) && ((place_meeting(x,y+1,movingwall2))or(place_meeting(x+1,y,movingwall2))or(place_meeting(x-1,y,movingwall2))){
+	
+		vmov = vsp;
+}
 //HORIZONTAL COLLISIONS AND MOVEMENT TRANSFER;
 
 if(place_meeting(x+hmov,y,WallObject)){
@@ -96,18 +145,88 @@ if(place_meeting(x,y+vmov,WallObject)){
 	vmov = 0;
 }
 
+//HORIZONTAL airvent;
+
+if(place_meeting(x+hmov,y,airvent)){
+	
+	while(!place_meeting(x+sign(hmov),y,airvent)){
+		x = x + sign(hmov);
+	}
+	hmov = 0;
+}
+
+if(hmov > 2)or(hmov < -2){
+	debug_event(hmov);
+}
+
+//VERTICAL airvent;
+
+if(place_meeting(x,y+vmov,airvent)){
+	
+	while(!place_meeting(x,y+sign(vmov),airvent)){
+		y = y + sign(vmov);
+	}
+	
+	vmov = 0;
+}
+
+
+//HORIZONTAL movingwall1;
+
+if(place_meeting(x+hmov,y,movingwall1)){
+	
+	while(!place_meeting(x+sign(hmov),y,movingwall1)){
+		x = x + sign(hmov);
+	}
+	hmov = 0;
+}
+
+if(hmov > 2)or(hmov < -2){
+	debug_event(hmov);
+}
+
+//VERTICAL movingwall1;
+
+if(place_meeting(x,y+vmov,movingwall1)){
+	
+	while(!place_meeting(x,y+sign(vmov),movingwall1)){
+		y = y + sign(vmov);
+	}
+	
+	vmov = 0;
+}
+
+//HORIZONTAL movingwall2;
+
+if(place_meeting(x+hmov,y,movingwall2)){
+	
+	while(!place_meeting(x+sign(hmov),y,movingwall2)){
+		x = x + sign(hmov);
+	}
+	hmov = 0;
+}
+
+if(hmov > 2)or(hmov < -2){
+	debug_event(hmov);
+}
+
+//VERTICAL movingwall2;
+
+if(place_meeting(x,y+vmov,movingwall2)){
+	
+	while(!place_meeting(x,y+sign(vmov),movingwall2)){
+		y = y + sign(vmov);
+	}
+	
+	vmov = 0;
+}
+
 //DASH;
 
 if(keyboard_check_pressed(ord("E"))){
+	hmov = 10 * (d-a)
+	vmov = 10 * (s-w)
 	
-	hDest = (d-a) * dashdis + x;
-
-	vDest = (s-w) * dashdis + y;
-	
-	while (round(hDest) != round(x)) or (round(vDest) != round(y)){
-		x += (hDest - x) / smoothness;
-		y += (vDest - y) / smoothness;
-	}	
 }
 
 //RESPAWN
@@ -117,9 +236,30 @@ if(keyboard_check_pressed(ord("R"))){
 	y = 100
 }
 
+
+//airventairup
+
+if(place_meeting(x,y,airventairup)){
+	
+	vmov -= 1;
+	
+	}
+	
+//airventleft
+
+if(place_meeting(x,y,airventairleft)){
+	
+	hmov -= 10;
+	vmov -= 1;
+	}
+	
+
+
+//Movement
 x = x + hmov;
 
 y = y + vmov;
+
 
 //SPRITE MANAGEMENT;
 
@@ -139,4 +279,7 @@ while(i > -1){
 	 i = i + 1;
 }
 */
+
+
+
 

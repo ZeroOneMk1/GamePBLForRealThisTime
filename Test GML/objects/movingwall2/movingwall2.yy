@@ -1,0 +1,91 @@
+{
+    "id": "dbed2938-e405-4b60-8933-5880b5f0c7f0",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "movingwall2",
+    "eventList": [
+        {
+            "id": "c63b5690-d7fd-4d7d-8248-375b0f09f4db",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "dbed2938-e405-4b60-8933-5880b5f0c7f0"
+        },
+        {
+            "id": "050048b2-7cb6-4f2f-9c0e-d870db260afa",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "dbed2938-e405-4b60-8933-5880b5f0c7f0"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "f5ee920a-77d8-42ef-a6fd-977e2f535d8a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "position_from",
+            "varType": 0
+        },
+        {
+            "id": "c747bcdf-08eb-48cb-94b9-ae1a1b647cfb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "position_to",
+            "varType": 0
+        },
+        {
+            "id": "335b3627-879a-4070-9eda-5bb69c90a75c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "horizontal_speed",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "64b5d7e7-a0e3-4c56-bfa4-77bbc30450c3",
+    "visible": true
+}

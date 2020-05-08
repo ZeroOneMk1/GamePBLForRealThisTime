@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "000421ba-e040-4071-a2a3-91ebb5893734",
+            "Value": {
+                "id": "87037bdc-16f6-40e0-bd16-7a749174c3bf",
+                "resourcePath": "objects\\airventairleft\\airventairleft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "00b4e8a2-9d21-4a45-a950-9c7b651e3de6",
             "Value": {
                 "id": "1ae83bc4-6787-47ed-b3cd-c64678304637",
@@ -43,6 +51,14 @@
             "Value": {
                 "id": "1c4b2818-188f-42e6-8657-aa49f4f1affd",
                 "resourcePath": "objects\/WallObject\/WallObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "094fd1a0-ce58-4266-8b34-95e69b30207e",
+            "Value": {
+                "id": "32004009-4caf-44ff-8673-1da3657bfa23",
+                "resourcePath": "objects\\airvent\\airvent.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -111,6 +127,14 @@
             }
         },
         {
+            "Key": "423aad41-f7bd-4333-9049-250cdd8ff5b1",
+            "Value": {
+                "id": "ab2d435e-7a4c-461c-b59e-3920d036ef96",
+                "resourcePath": "sprites\\airventsprite1\\airventsprite1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "456e7e61-6f24-46dc-88c5-8f86cc03e5fc",
             "Value": {
                 "id": "aa4947f4-8a0c-4b18-a500-d4725a39a3f2",
@@ -123,6 +147,14 @@
             "Value": {
                 "id": "bbe9e5f7-d014-4915-90ed-89964c4cfd38",
                 "resourcePath": "sprites\/HeartSpriteRWalk\/HeartSpriteRWalk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "64b5d7e7-a0e3-4c56-bfa4-77bbc30450c3",
+            "Value": {
+                "id": "c7b7d2e1-dbbd-443d-862b-552cc7bf51f0",
+                "resourcePath": "sprites\\movingwall\\movingwall.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -156,6 +188,14 @@
                 "id": "1e8dd95a-4d53-4c76-b5c9-4400e5536503",
                 "resourcePath": "views\/8754d076-19b1-4d7a-9852-950b031a858c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "91819220-c7ff-43f1-bfd1-653719f664ad",
+            "Value": {
+                "id": "b1c31ca6-8a73-41b7-8c74-f62d8b02fc53",
+                "resourcePath": "sprites\\sprite9\\sprite9.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -231,11 +271,35 @@
             }
         },
         {
+            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
+            "Value": {
+                "id": "660a7af0-5d57-4f09-9b80-93f02f06c0bd",
+                "resourcePath": "options\\windows\\options_windows.yy",
+                "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
             "Key": "d1824b94-1c65-483b-93e2-ffbd6aa2c97d",
             "Value": {
                 "id": "c5b29d49-0027-4e03-9bb2-0b84e9394649",
                 "resourcePath": "views\/d1824b94-1c65-483b-93e2-ffbd6aa2c97d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d2bccd12-5096-4b07-91d5-20445cf8205e",
+            "Value": {
+                "id": "d67b6cd2-489d-4705-a9e5-407f5b3d923c",
+                "resourcePath": "objects\\airventairup\\airventairup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dbed2938-e405-4b60-8933-5880b5f0c7f0",
+            "Value": {
+                "id": "03fd17a6-f7f7-43d0-b9dc-a80fc319dd02",
+                "resourcePath": "objects\\movingwall2\\movingwall2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -268,6 +332,14 @@
                 "id": "06602469-5738-4d70-bb9f-c90d49eb8da9",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fb09a755-38a9-4629-8b40-d8420317a002",
+            "Value": {
+                "id": "a5650d73-1440-4f91-be0a-ab4d1dbf3969",
+                "resourcePath": "objects\\movingwall1\\movingwall1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
