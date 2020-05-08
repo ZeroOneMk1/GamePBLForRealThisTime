@@ -1,6 +1,6 @@
 ///@description cameraman take me by the hand lead me to the land that you understand
 
-draw_set_font(Minecraft);
+
 
 draw_text(x + 40 - Wviewhalf,y + 100 - Hviewhalf,"vmov: "+string(focus.vmov));
 draw_text(x + 40 - Wviewhalf,y + 150 - Hviewhalf,"hmov: "+string(focus.hmov));

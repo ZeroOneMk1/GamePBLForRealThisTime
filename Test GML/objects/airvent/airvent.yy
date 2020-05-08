@@ -1,19 +1,10 @@
 {
-    "id": "094fd1a0-ce58-4266-8b34-95e69b30207e",
+    "id": "c66c41b2-b99a-480b-8fe2-6783685d1b0f",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "airvent",
     "eventList": [
-        {
-            "id": "a3861b6e-6bf3-4a81-a2c4-10671ade09eb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "094fd1a0-ce58-4266-8b34-95e69b30207e"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "423aad41-f7bd-4333-9049-250cdd8ff5b1",
+    "spriteId": "94f9eb42-5861-4fe3-a0bf-aca890262531",
     "visible": true
 }

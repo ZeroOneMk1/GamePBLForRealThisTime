@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "000421ba-e040-4071-a2a3-91ebb5893734",
-            "Value": {
-                "id": "87037bdc-16f6-40e0-bd16-7a749174c3bf",
-                "resourcePath": "objects\\airventairleft\\airventairleft.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "00b4e8a2-9d21-4a45-a950-9c7b651e3de6",
             "Value": {
                 "id": "1ae83bc4-6787-47ed-b3cd-c64678304637",
@@ -47,18 +39,18 @@
             }
         },
         {
-            "Key": "08dad20f-3779-43b5-b92b-73d7c9554e66",
+            "Key": "00f0b7f9-59fe-43ad-9a91-b406ce4cdd5b",
             "Value": {
-                "id": "1c4b2818-188f-42e6-8657-aa49f4f1affd",
-                "resourcePath": "objects\/WallObject\/WallObject.yy",
+                "id": "20c11f19-438f-4086-b403-c42f43b5331c",
+                "resourcePath": "objects\\movingwall1\\movingwall1.yy",
                 "resourceType": "GMObject"
             }
         },
         {
-            "Key": "094fd1a0-ce58-4266-8b34-95e69b30207e",
+            "Key": "08dad20f-3779-43b5-b92b-73d7c9554e66",
             "Value": {
-                "id": "32004009-4caf-44ff-8673-1da3657bfa23",
-                "resourcePath": "objects\\airvent\\airvent.yy",
+                "id": "1c4b2818-188f-42e6-8657-aa49f4f1affd",
+                "resourcePath": "objects\/WallObject\/WallObject.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -113,25 +105,9 @@
         {
             "Key": "2ec80da7-685e-4a0e-96a0-5cd2af11e869",
             "Value": {
-                "id": "5cdbb3d7-f5fc-4b6a-aa34-b57bf0a132a5",
-                "resourcePath": "objects\/CameraObject\/CameraObject.yy",
+                "id": "06fd6ca1-9e52-4a36-be45-6fe8d1e2e5cc",
+                "resourcePath": "objects\\CameraObject\\CameraObject.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "3bf56885-2691-461b-a41d-d4d239787cc0",
-            "Value": {
-                "id": "92ee0d88-fc10-42ac-bf7f-df304cb64394",
-                "resourcePath": "fonts\/Minecraft\/Minecraft.yy",
-                "resourceType": "GMFont"
-            }
-        },
-        {
-            "Key": "423aad41-f7bd-4333-9049-250cdd8ff5b1",
-            "Value": {
-                "id": "ab2d435e-7a4c-461c-b59e-3920d036ef96",
-                "resourcePath": "sprites\\airventsprite1\\airventsprite1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -143,18 +119,26 @@
             }
         },
         {
+            "Key": "47936000-b2b7-4b32-affd-8d98b55630aa",
+            "Value": {
+                "id": "6986ffb2-8386-4b5a-9e7c-466f48bcd257",
+                "resourcePath": "objects\\airventairleft\\airventairleft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "47e33128-b39e-4f51-a7af-4033dbc9ffed",
+            "Value": {
+                "id": "01ee015c-c512-422c-b588-43219b2b5ef6",
+                "resourcePath": "objects\\movingwall2\\movingwall2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4abb0bd8-68fc-4b65-93ba-b3a710303dce",
             "Value": {
                 "id": "bbe9e5f7-d014-4915-90ed-89964c4cfd38",
                 "resourcePath": "sprites\/HeartSpriteRWalk\/HeartSpriteRWalk.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "64b5d7e7-a0e3-4c56-bfa4-77bbc30450c3",
-            "Value": {
-                "id": "c7b7d2e1-dbbd-443d-862b-552cc7bf51f0",
-                "resourcePath": "sprites\\movingwall\\movingwall.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -167,11 +151,19 @@
             }
         },
         {
-            "Key": "738b46da-152f-49e3-9520-b240819b4d67",
+            "Key": "67589ac4-1288-41a1-a0d1-0296efe79b85",
             "Value": {
-                "id": "7266224d-2d7e-47a9-963b-003124eb6cd8",
-                "resourcePath": "rooms\/room0\/room0.yy",
+                "id": "13e73258-1c4f-43b8-ac2f-ee13ae74df73",
+                "resourcePath": "rooms\\room1\\room1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "7023ae28-4570-40e7-a0b0-47bc1a08c5c6",
+            "Value": {
+                "id": "10ea6c98-3daa-4cf4-97d6-734950aa20d6",
+                "resourcePath": "sprites\\airsprite\\airsprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -191,10 +183,10 @@
             }
         },
         {
-            "Key": "91819220-c7ff-43f1-bfd1-653719f664ad",
+            "Key": "94f9eb42-5861-4fe3-a0bf-aca890262531",
             "Value": {
-                "id": "b1c31ca6-8a73-41b7-8c74-f62d8b02fc53",
-                "resourcePath": "sprites\\sprite9\\sprite9.yy",
+                "id": "3a9d8e55-f65c-4a65-a5ad-b209deadbe78",
+                "resourcePath": "sprites\\airventsprite\\airventsprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -204,14 +196,6 @@
                 "id": "ff5aed32-4075-40ba-98a4-3ff9a2c2a829",
                 "resourcePath": "views\/96978f04-e2ad-4320-84e4-dc6cc5f743b0.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "96ef9c6a-f898-45c8-a22e-156b0aff8f57",
-            "Value": {
-                "id": "369506cf-09db-4b3d-8f39-278bef78a776",
-                "resourcePath": "objects\/CameraObject\/CameraObject.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -255,6 +239,14 @@
             }
         },
         {
+            "Key": "b6eca0a2-ad61-41cf-88f0-5237bcc0cb51",
+            "Value": {
+                "id": "84794aa1-5978-42e4-a527-55a582fa0da2",
+                "resourcePath": "sprites\\movingplatformsprite\\movingplatformsprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "be612870-49fc-4544-be90-4891bced1495",
             "Value": {
                 "id": "609d5f1f-3d2c-45bc-9a4d-ea1b144efc82",
@@ -263,17 +255,17 @@
             }
         },
         {
-            "Key": "cc3ade72-aedb-42bd-aeba-296e7bf32f84",
+            "Key": "c66c41b2-b99a-480b-8fe2-6783685d1b0f",
             "Value": {
-                "id": "b9fd7ed2-6b17-4802-8123-bfa4d9414d81",
-                "resourcePath": "rooms\/room1\/room1.yy",
-                "resourceType": "GMRoom"
+                "id": "39ae6c2a-82e6-49da-815a-29a79131ef92",
+                "resourcePath": "objects\\airvent\\airvent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
-                "id": "660a7af0-5d57-4f09-9b80-93f02f06c0bd",
+                "id": "783f168c-06bd-49a9-879c-24228442350f",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
             }
@@ -287,27 +279,19 @@
             }
         },
         {
-            "Key": "d2bccd12-5096-4b07-91d5-20445cf8205e",
-            "Value": {
-                "id": "d67b6cd2-489d-4705-a9e5-407f5b3d923c",
-                "resourcePath": "objects\\airventairup\\airventairup.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "dbed2938-e405-4b60-8933-5880b5f0c7f0",
-            "Value": {
-                "id": "03fd17a6-f7f7-43d0-b9dc-a80fc319dd02",
-                "resourcePath": "objects\\movingwall2\\movingwall2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "e9a53ea6-39af-495d-9e77-a266f2d9879f",
             "Value": {
                 "id": "0768c10b-dbe5-4ae9-a7b7-5d9c663257c6",
-                "resourcePath": "sprites\/ROCK\/ROCK.yy",
+                "resourcePath": "sprites\\ROCK\\ROCK.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ea202baf-eeb9-4432-a8d3-79d5b02080bb",
+            "Value": {
+                "id": "827bdc04-acb2-4002-81de-9abbe184f8b4",
+                "resourcePath": "objects\\airventairup\\airventairup.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -332,14 +316,6 @@
                 "id": "06602469-5738-4d70-bb9f-c90d49eb8da9",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
-            }
-        },
-        {
-            "Key": "fb09a755-38a9-4629-8b40-d8420317a002",
-            "Value": {
-                "id": "a5650d73-1440-4f91-be0a-ab4d1dbf3969",
-                "resourcePath": "objects\\movingwall1\\movingwall1.yy",
-                "resourceType": "GMObject"
             }
         },
         {
