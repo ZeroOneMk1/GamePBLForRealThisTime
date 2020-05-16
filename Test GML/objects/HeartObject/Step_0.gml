@@ -1,12 +1,20 @@
 ///@description Movements
-d = keyboard_check(ord("D"));
-a = keyboard_check(ord("A"));
-spce = keyboard_check_pressed(vk_space);
-cntspce = keyboard_check(vk_space);
-w = keyboard_check(ord("W"));
-s = keyboard_check(ord("S"));
 
+if (hascontrol)
+{
+	esc = keyboard_check_pressed(vk_escape);
+	d = keyboard_check(ord("D"));
+	a = keyboard_check(ord("A"));
+	spce = keyboard_check_pressed(vk_space);
+	cntspce = keyboard_check(vk_space);
+	w = keyboard_check(ord("W"));
+	s = keyboard_check(ord("S"));
+}
 // MAKING MOVEMENT SPEED UP AND DOWN INSTEAD OF BEING 0 OR 1;
+
+if(esc){
+    room = MenuRoom;
+}
 
 if(a) && (aval<1){
 	aval = aval + accsp;

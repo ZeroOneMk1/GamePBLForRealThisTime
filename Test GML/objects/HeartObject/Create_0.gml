@@ -15,3 +15,5 @@ dashdis = 100;
 camera = CameraObject;
 
 smoothness = 10;
+
+hascontrol = true
